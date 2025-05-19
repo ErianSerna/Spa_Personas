@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
+using Spa_Personas.Clases;
+using Spa_Personas.Models;
+
+namespace Spa_Personas.Controllers
+{
+    [RoutePrefix("api/Usuario")]
+    public class UsuarioController : ApiController
+    {
+
+        [HttpGet]
+        [Route("ConsultarxCedula")]
+        public Usuario ConsultarxCedula(string Cedula)
+        {
+            clsUsuario usu = new clsUsuario();
+            return usu.ConsultarPorCedula(Cedula);
+        }
+
+        [HttpPost]
+        [Route("Insertar")]
+        public string Insertar([FromBody] Usuario usu)
+        {
+            clsUsuario Usuario = new clsUsuario();
+            Usuario.usuario = usu;
+            return Usuario.Insertar();
+        }
+
+        [HttpPut]
+        [Route("Actualizar")]
+        public string Actualizar([FromBody] Usuario usu)
+        {
+            clsUsuario Usuario = new clsUsuario();
+            Usuario.usuario = usu;
+            return Usuario.Actualizar();
+        }
+
+        [HttpDelete]
+        [Route("Eliminar")]
+        public string Eliminar([FromBody] Usuario usu)
+        {
+            clsUsuario Usuario = new clsUsuario();
+            Usuario.usuario = usu;
+            return Usuario.Eliminar();
+        }
+    }
+}
