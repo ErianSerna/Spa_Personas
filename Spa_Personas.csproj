@@ -269,6 +269,7 @@
       <DependentUpon>DBSpa.edmx</DependentUpon>
       <LastGenOutput>DBSpa.cs</LastGenOutput>
     </Content>
+    <Content Include="Models\DBSpaPersonas.sql" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -301,6 +302,7 @@
     <Content Include="Models\DBSpa.edmx.diagram">
       <DependentUpon>DBSpa.edmx</DependentUpon>
     </Content>
+    <Content Include="Models\SpaPersonas.postman_collection.json" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
