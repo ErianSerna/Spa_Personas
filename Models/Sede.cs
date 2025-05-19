@@ -27,8 +27,7 @@ namespace Spa_Personas.Models
         public string Nombre { get; set; }
         public string Direccion { get; set; }
         public int IdCiudad { get; set; }
-
-        
+    
         public virtual Ciudad Ciudad { get; set; }
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

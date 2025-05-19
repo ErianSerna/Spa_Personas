@@ -222,6 +222,9 @@
     <Compile Include="Models\Servicio_Sede.cs">
       <DependentUpon>DBSpa.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\sysdiagram.cs">
+      <DependentUpon>DBSpa.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\TipoProducto.cs">
       <DependentUpon>DBSpa.tt</DependentUpon>
     </Compile>

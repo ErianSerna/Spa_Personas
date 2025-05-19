@@ -36,6 +36,7 @@ namespace Spa_Personas.Models
         public virtual DbSet<Sede> Sedes { get; set; }
         public virtual DbSet<Servicio> Servicios { get; set; }
         public virtual DbSet<Servicio_Sede> Servicio_Sede { get; set; }
+        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<TipoProducto> TipoProductoes { get; set; }
         public virtual DbSet<TipoServicio> TipoServicios { get; set; }
         public virtual DbSet<TipoUsuario> TipoUsuarios { get; set; }

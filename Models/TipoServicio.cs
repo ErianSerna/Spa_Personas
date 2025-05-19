@@ -9,12 +9,22 @@
 
 namespace Spa_Personas.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
     public partial class TipoServicio
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public TipoServicio()
+        {
+            this.Servicios = new HashSet<Servicio>();
+        }
+    
         public int Id { get; set; }
         public string Nombre { get; set; }
+        [JsonIgnore]
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Servicio> Servicios { get; set; }
     }
 }

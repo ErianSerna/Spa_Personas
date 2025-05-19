@@ -27,6 +27,7 @@ namespace Spa_Personas.Models
         public decimal Precio { get; set; }
         public int Duracion { get; set; }
         public int IdSede { get; set; }
+        public int IdTipoServicio { get; set; }
 
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
@@ -35,5 +36,6 @@ namespace Spa_Personas.Models
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Servicio_Sede> Servicio_Sede { get; set; }
+        public virtual TipoServicio TipoServicio { get; set; }
     }
 }

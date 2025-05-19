@@ -29,14 +29,17 @@ namespace Spa_Personas.Models
         public string Descripcion { get; set; }
         public int IdProveedor { get; set; }
         public int IdTipoProducto { get; set; }
+
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Detalle_factura> Detalle_factura { get; set; }
+
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Inventario> Inventarios { get; set; }
         public virtual Proveedor Proveedor { get; set; }
         public virtual TipoProducto TipoProducto { get; set; }
+
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Proveedor_Producto> Proveedor_Producto { get; set; }
