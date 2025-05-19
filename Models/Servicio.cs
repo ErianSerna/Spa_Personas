@@ -19,6 +19,7 @@ namespace Spa_Personas.Models
         public Servicio()
         {
             this.Detalle_factura = new HashSet<Detalle_factura>();
+            this.Reservas = new HashSet<Reserva>();
             this.Servicio_Sede = new HashSet<Servicio_Sede>();
         }
     
@@ -28,10 +29,12 @@ namespace Spa_Personas.Models
         public int Duracion { get; set; }
         public int IdSede { get; set; }
         public int IdTipoServicio { get; set; }
-
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Detalle_factura> Detalle_factura { get; set; }
+        [JsonIgnore]
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Reserva> Reservas { get; set; }
         public virtual Sede Sede { get; set; }
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

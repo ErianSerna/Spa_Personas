@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,6 +35,10 @@
       "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,47 +47,43 @@
       "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:models\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\models\\dbspa.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:models\\dbspa.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\clases\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:clases\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\clases\\clssede.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:clases\\clssede.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\clases\\clsciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:clases\\clsciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\models\\dbspa.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:models\\dbspa.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\controllers\\sedecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:controllers\\sedecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\controllers\\ciudadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:controllers\\ciudadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|C:\\Users\\erian\\source\\repos\\Spa_Personas\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|c:\\users\\erian\\source\\repos\\spa_personas\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|C:\\Users\\erian\\source\\repos\\Spa_Personas\\clases\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:clases\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|C:\\Users\\erian\\source\\repos\\Spa_Personas\\clases\\clssede.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:clases\\clssede.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|C:\\Users\\erian\\source\\repos\\Spa_Personas\\clases\\clsciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:clases\\clsciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|C:\\Users\\erian\\source\\repos\\Spa_Personas\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|C:\\Users\\erian\\source\\repos\\Spa_Personas\\controllers\\sedecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:controllers\\sedecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|C:\\Users\\erian\\source\\repos\\Spa_Personas\\controllers\\ciudadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:controllers\\ciudadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|C:\\Users\\erian\\source\\repos\\Spa_Personas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|C:\\Users\\erian\\source\\repos\\Spa_Personas\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{141386F6-ECEA-43E9-8EB9-D88C0C2F9A39}|Spa_Personas.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -98,11 +94,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Models\\Usuario.cs",
@@ -110,12 +106,12 @@
               "RelativeToolTip": "Models\\Usuario.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:53:01.436Z",
+              "WhenOpened": "2025-05-19T05:46:46.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TipoUsuario.cs",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\TipoUsuario.cs",
               "RelativeDocumentMoniker": "Models\\TipoUsuario.cs",
@@ -123,12 +119,12 @@
               "RelativeToolTip": "Models\\TipoUsuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:52:58.741Z",
+              "WhenOpened": "2025-05-19T05:46:44.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "TipoServicio.cs",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\TipoServicio.cs",
               "RelativeDocumentMoniker": "Models\\TipoServicio.cs",
@@ -136,12 +132,12 @@
               "RelativeToolTip": "Models\\TipoServicio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:52:55.777Z",
+              "WhenOpened": "2025-05-19T05:46:41.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "TipoProducto.cs",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\TipoProducto.cs",
               "RelativeDocumentMoniker": "Models\\TipoProducto.cs",
@@ -149,72 +145,72 @@
               "RelativeToolTip": "Models\\TipoProducto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:52:52.146Z",
+              "WhenOpened": "2025-05-19T05:46:37.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Servicio.cs",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Servicio.cs",
               "RelativeDocumentMoniker": "Models\\Servicio.cs",
               "ToolTip": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Servicio.cs",
               "RelativeToolTip": "Models\\Servicio.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:52:45.099Z",
+              "WhenOpened": "2025-05-19T05:46:21.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Sede.cs",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Sede.cs",
               "RelativeDocumentMoniker": "Models\\Sede.cs",
               "ToolTip": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Sede.cs",
               "RelativeToolTip": "Models\\Sede.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:52:37.476Z",
+              "WhenOpened": "2025-05-19T05:46:13.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Reserva.cs",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Reserva.cs",
               "RelativeDocumentMoniker": "Models\\Reserva.cs",
               "ToolTip": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Reserva.cs",
               "RelativeToolTip": "Models\\Reserva.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:52:27.51Z",
+              "WhenOpened": "2025-05-19T05:46:10.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Proveedor.cs",
+              "RelativeDocumentMoniker": "Models\\Proveedor.cs",
+              "ToolTip": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Proveedor.cs",
+              "RelativeToolTip": "Models\\Proveedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T05:46:04.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Proveedor.cs",
-              "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Proveedor.cs",
-              "RelativeDocumentMoniker": "Models\\Proveedor.cs",
-              "ToolTip": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Proveedor.cs*",
-              "RelativeToolTip": "Models\\Proveedor.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:52:20.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "Models\\Producto.cs",
               "ToolTip": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Producto.cs",
               "RelativeToolTip": "Models\\Producto.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:52:09.35Z",
+              "WhenOpened": "2025-05-19T05:45:51.119Z",
               "EditorCaption": ""
             },
             {
@@ -225,9 +221,9 @@
               "RelativeDocumentMoniker": "Models\\Factura.cs",
               "ToolTip": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Factura.cs",
               "RelativeToolTip": "Models\\Factura.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:52:04.87Z",
+              "WhenOpened": "2025-05-19T05:45:46.552Z",
               "EditorCaption": ""
             },
             {
@@ -242,39 +238,26 @@
               "RelativeDocumentMoniker": "Models\\Ciudad.cs",
               "ToolTip": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\Ciudad.cs",
               "RelativeToolTip": "Models\\Ciudad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:51:42.298Z",
+              "WhenOpened": "2025-05-19T05:45:19.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "DBSpa.Context.cs",
-              "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\DBSpa.Context.cs",
-              "RelativeDocumentMoniker": "Models\\DBSpa.Context.cs",
-              "ToolTip": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\DBSpa.Context.cs",
-              "RelativeToolTip": "Models\\DBSpa.Context.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:51:37.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "DBSpa.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\DBSpa.edmx",
               "RelativeDocumentMoniker": "Models\\DBSpa.edmx",
               "ToolTip": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Models\\DBSpa.edmx [Diagram1]",
               "RelativeToolTip": "Models\\DBSpa.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-05-19T00:50:47.135Z",
+              "WhenOpened": "2025-05-19T05:44:25.182Z",
               "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 12,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ValuesController.cs",
@@ -313,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "clsUsuario.cs",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Clases\\clsUsuario.cs",
               "RelativeDocumentMoniker": "Clases\\clsUsuario.cs",
@@ -330,11 +313,11 @@
               "Title": "CiudadController.cs",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Controllers\\CiudadController.cs",
               "RelativeDocumentMoniker": "Controllers\\CiudadController.cs",
-              "ToolTip": "Controllers/CiudadController.cs",
+              "ToolTip": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Controllers\\CiudadController.cs",
+              "RelativeToolTip": "Controllers\\CiudadController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "OverriddenGroupName": "Controllers",
-              "OverriddenToolTip": "Controllers/CiudadController.cs",
               "WhenOpened": "2025-05-18T22:44:12.289Z",
               "EditorCaption": ""
             },
@@ -354,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "clsSede.cs",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Clases\\clsSede.cs",
               "RelativeDocumentMoniker": "Clases\\clsSede.cs",
@@ -368,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "clsCiudad.cs",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Clases\\clsCiudad.cs",
               "RelativeDocumentMoniker": "Clases\\clsCiudad.cs",
@@ -382,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\erian\\source\\repos\\Spa_Personas\\Web.config",
               "RelativeDocumentMoniker": "Web.config",

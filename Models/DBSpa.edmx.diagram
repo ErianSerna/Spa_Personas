@@ -4,37 +4,37 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="607e0a1448584e9fbb228ec6c9ed4c7f" Name="Diagram1">
-        <EntityTypeShape EntityType="DBSpaPersonasModel.Ciudad" Width="1.5" PointX="1.5" PointY="24.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.Detalle_factura" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.Factura" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.Inventario" Width="1.5" PointX="8.25" PointY="4.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.Producto" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.Proveedor" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.Proveedor_Producto" Width="1.5" PointX="8.25" PointY="1.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.Reserva" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.Sede" Width="1.5" PointX="0.75" PointY="19" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.Servicio" Width="1.5" PointX="3" PointY="19.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.Servicio_Sede" Width="1.5" PointX="5.25" PointY="19.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.sysdiagram" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.TipoProducto" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.TipoServicio" Width="1.5" PointX="0.75" PointY="27.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.TipoUsuario" Width="1.5" PointX="1.5" PointY="15.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBSpaPersonasModel.Usuario" Width="1.5" PointX="1.5" PointY="12.375" IsExpanded="true" />
+      <Diagram DiagramId="17003e184e6b4c53a118cdf382b467eb" Name="Diagram1">
+        <EntityTypeShape EntityType="DBSpaPersonasModel.Ciudad" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.Detalle_factura" Width="1.5" PointX="13.5" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.Factura" Width="1.5" PointX="12.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.Inventario" Width="1.5" PointX="5.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.Producto" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.Proveedor" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.Proveedor_Producto" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.Reserva" Width="1.5" PointX="10.5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.Sede" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.Servicio" Width="1.5" PointX="8.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.Servicio_Sede" Width="1.5" PointX="10.5" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.sysdiagram" Width="1.5" PointX="2.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.TipoProducto" Width="1.5" PointX="0.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.TipoServicio" Width="1.5" PointX="6" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.TipoUsuario" Width="1.5" PointX="6" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBSpaPersonasModel.Usuario" Width="1.5" PointX="8.25" PointY="3.75" IsExpanded="true" />
         <AssociationConnector Association="DBSpaPersonasModel.FK__Sede__IdCiudad__534D60F1" ManuallyRouted="false" />
-        <AssociationConnector Association="DBSpaPersonasModel.FK__Detalle_f__IdFac__74AE54BC" ManuallyRouted="false" />
-        <AssociationConnector Association="DBSpaPersonasModel.FK__Detalle_f__IdPro__73BA3083" ManuallyRouted="false" />
-        <AssociationConnector Association="DBSpaPersonasModel.FK__Detalle_f__IdSer__75A278F5" ManuallyRouted="false" />
-        <AssociationConnector Association="DBSpaPersonasModel.FK__Factura__Id_Rese__619B8048" ManuallyRouted="false" />
-        <AssociationConnector Association="DBSpaPersonasModel.FK__Factura__Id_Usua__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="DBSpaPersonasModel.FK__Detalle_f__IdFac__0B91BA14" ManuallyRouted="false" />
+        <AssociationConnector Association="DBSpaPersonasModel.FK__Detalle_f__IdPro__0A9D95DB" ManuallyRouted="false" />
+        <AssociationConnector Association="DBSpaPersonasModel.FK__Detalle_f__IdSer__0C85DE4D" ManuallyRouted="false" />
+        <AssociationConnector Association="DBSpaPersonasModel.FK__Factura__Id_Rese__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="DBSpaPersonasModel.FK__Factura__Id_Usua__02FC7413" ManuallyRouted="false" />
         <AssociationConnector Association="DBSpaPersonasModel.FK__Inventari__IdPro__68487DD7" ManuallyRouted="false" />
         <AssociationConnector Association="DBSpaPersonasModel.FK__Inventari__IdSed__693CA210" ManuallyRouted="false" />
         <AssociationConnector Association="DBSpaPersonasModel.FK__Producto__IdProv__5DCAEF64" ManuallyRouted="false" />
         <AssociationConnector Association="DBSpaPersonasModel.FK__Producto__IdTipo__5CD6CB2B" ManuallyRouted="false" />
         <AssociationConnector Association="DBSpaPersonasModel.FK__Proveedor__Id_Pr__70DDC3D8" ManuallyRouted="false" />
         <AssociationConnector Association="DBSpaPersonasModel.FK__Proveedor__Id_Pr__6FE99F9F" ManuallyRouted="false" />
-        <AssociationConnector Association="DBSpaPersonasModel.FK__Reserva__IdServi__59FA5E80" ManuallyRouted="false" />
-        <AssociationConnector Association="DBSpaPersonasModel.FK__Reserva__IdUsuar__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="DBSpaPersonasModel.FK__Reserva__IdServi__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="DBSpaPersonasModel.FK__Reserva__IdUsuar__7E37BEF6" ManuallyRouted="false" />
         <AssociationConnector Association="DBSpaPersonasModel.FK__Servicio___IdSed__6D0D32F4" ManuallyRouted="false" />
         <AssociationConnector Association="DBSpaPersonasModel.FK__Servicio__IdSede__6477ECF3" ManuallyRouted="false" />
         <AssociationConnector Association="DBSpaPersonasModel.FK__Servicio___IdSer__6C190EBB" ManuallyRouted="false" />

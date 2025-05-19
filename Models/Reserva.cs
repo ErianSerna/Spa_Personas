@@ -19,7 +19,6 @@ namespace Spa_Personas.Models
         public Reserva()
         {
             this.Facturas = new HashSet<Factura>();
-            this.Reserva1 = new HashSet<Reserva>();
         }
     
         public int Id { get; set; }
@@ -28,14 +27,10 @@ namespace Spa_Personas.Models
         public System.DateTime FechaExpiracion { get; set; }
         public int IdServicio { get; set; }
         public int IdUsuario { get; set; }
-
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Factura> Facturas { get; set; }
-        [JsonIgnore]
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Reserva> Reserva1 { get; set; }
-        public virtual Reserva Reserva2 { get; set; }
+        public virtual Servicio Servicio { get; set; }
         public virtual Usuario Usuario { get; set; }
     }
 }

@@ -151,7 +151,7 @@
     <Property Name="Correo_electronico" Type="nvarchar" MaxLength="100" Nullable="false" />
     <Property Name="IdTipoUsuario" Type="int" Nullable="false" />
   </EntityType>
-  <Association Name="FK__Detalle_f__IdFac__74AE54BC">
+  <Association Name="FK__Detalle_f__IdFac__0B91BA14">
     <End Role="Factura" Type="Self.Factura" Multiplicity="1" />
     <End Role="Detalle_factura" Type="Self.Detalle_factura" Multiplicity="*" />
     <ReferentialConstraint>
@@ -163,7 +163,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Detalle_f__IdPro__73BA3083">
+  <Association Name="FK__Detalle_f__IdPro__0A9D95DB">
     <End Role="Producto" Type="Self.Producto" Multiplicity="1" />
     <End Role="Detalle_factura" Type="Self.Detalle_factura" Multiplicity="*" />
     <ReferentialConstraint>
@@ -175,7 +175,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Detalle_f__IdSer__75A278F5">
+  <Association Name="FK__Detalle_f__IdSer__0C85DE4D">
     <End Role="Servicio" Type="Self.Servicio" Multiplicity="1" />
     <End Role="Detalle_factura" Type="Self.Detalle_factura" Multiplicity="*" />
     <ReferentialConstraint>
@@ -187,7 +187,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Factura__Id_Rese__619B8048">
+  <Association Name="FK__Factura__Id_Rese__03F0984C">
     <End Role="Reserva" Type="Self.Reserva" Multiplicity="1" />
     <End Role="Factura" Type="Self.Factura" Multiplicity="*" />
     <ReferentialConstraint>
@@ -199,7 +199,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Factura__Id_Usua__60A75C0F">
+  <Association Name="FK__Factura__Id_Usua__02FC7413">
     <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
     <End Role="Factura" Type="Self.Factura" Multiplicity="*" />
     <ReferentialConstraint>
@@ -283,19 +283,19 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Reserva__IdServi__59FA5E80">
-    <End Role="Reserva" Type="Self.Reserva" Multiplicity="1" />
-    <End Role="Reserva1" Type="Self.Reserva" Multiplicity="*" />
+  <Association Name="FK__Reserva__IdServi__7F2BE32F">
+    <End Role="Servicio" Type="Self.Servicio" Multiplicity="1" />
+    <End Role="Reserva" Type="Self.Reserva" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Reserva">
+      <Principal Role="Servicio">
         <PropertyRef Name="Id" />
       </Principal>
-      <Dependent Role="Reserva1">
+      <Dependent Role="Reserva">
         <PropertyRef Name="IdServicio" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Reserva__IdUsuar__59063A47">
+  <Association Name="FK__Reserva__IdUsuar__7E37BEF6">
     <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
     <End Role="Reserva" Type="Self.Reserva" Multiplicity="*" />
     <ReferentialConstraint>
@@ -396,23 +396,23 @@
     <EntitySet Name="TipoServicio" EntityType="Self.TipoServicio" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TipoUsuario" EntityType="Self.TipoUsuario" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK__Detalle_f__IdFac__74AE54BC" Association="Self.FK__Detalle_f__IdFac__74AE54BC">
+    <AssociationSet Name="FK__Detalle_f__IdFac__0B91BA14" Association="Self.FK__Detalle_f__IdFac__0B91BA14">
       <End Role="Factura" EntitySet="Factura" />
       <End Role="Detalle_factura" EntitySet="Detalle_factura" />
     </AssociationSet>
-    <AssociationSet Name="FK__Detalle_f__IdPro__73BA3083" Association="Self.FK__Detalle_f__IdPro__73BA3083">
+    <AssociationSet Name="FK__Detalle_f__IdPro__0A9D95DB" Association="Self.FK__Detalle_f__IdPro__0A9D95DB">
       <End Role="Producto" EntitySet="Producto" />
       <End Role="Detalle_factura" EntitySet="Detalle_factura" />
     </AssociationSet>
-    <AssociationSet Name="FK__Detalle_f__IdSer__75A278F5" Association="Self.FK__Detalle_f__IdSer__75A278F5">
+    <AssociationSet Name="FK__Detalle_f__IdSer__0C85DE4D" Association="Self.FK__Detalle_f__IdSer__0C85DE4D">
       <End Role="Servicio" EntitySet="Servicio" />
       <End Role="Detalle_factura" EntitySet="Detalle_factura" />
     </AssociationSet>
-    <AssociationSet Name="FK__Factura__Id_Rese__619B8048" Association="Self.FK__Factura__Id_Rese__619B8048">
+    <AssociationSet Name="FK__Factura__Id_Rese__03F0984C" Association="Self.FK__Factura__Id_Rese__03F0984C">
       <End Role="Reserva" EntitySet="Reserva" />
       <End Role="Factura" EntitySet="Factura" />
     </AssociationSet>
-    <AssociationSet Name="FK__Factura__Id_Usua__60A75C0F" Association="Self.FK__Factura__Id_Usua__60A75C0F">
+    <AssociationSet Name="FK__Factura__Id_Usua__02FC7413" Association="Self.FK__Factura__Id_Usua__02FC7413">
       <End Role="Usuario" EntitySet="Usuario" />
       <End Role="Factura" EntitySet="Factura" />
     </AssociationSet>
@@ -440,11 +440,11 @@
       <End Role="Producto" EntitySet="Producto" />
       <End Role="Proveedor_Producto" EntitySet="Proveedor_Producto" />
     </AssociationSet>
-    <AssociationSet Name="FK__Reserva__IdServi__59FA5E80" Association="Self.FK__Reserva__IdServi__59FA5E80">
+    <AssociationSet Name="FK__Reserva__IdServi__7F2BE32F" Association="Self.FK__Reserva__IdServi__7F2BE32F">
+      <End Role="Servicio" EntitySet="Servicio" />
       <End Role="Reserva" EntitySet="Reserva" />
-      <End Role="Reserva1" EntitySet="Reserva" />
     </AssociationSet>
-    <AssociationSet Name="FK__Reserva__IdUsuar__59063A47" Association="Self.FK__Reserva__IdUsuar__59063A47">
+    <AssociationSet Name="FK__Reserva__IdUsuar__7E37BEF6" Association="Self.FK__Reserva__IdUsuar__7E37BEF6">
       <End Role="Usuario" EntitySet="Usuario" />
       <End Role="Reserva" EntitySet="Reserva" />
     </AssociationSet>

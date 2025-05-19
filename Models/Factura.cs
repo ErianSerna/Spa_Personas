@@ -27,7 +27,6 @@ namespace Spa_Personas.Models
         public int Id_Usuario { get; set; }
         public Nullable<decimal> TotalConDescuento { get; set; }
         public int Id_Reservas { get; set; }
-
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Detalle_factura> Detalle_factura { get; set; }
