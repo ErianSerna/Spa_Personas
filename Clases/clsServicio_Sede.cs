@@ -1,14 +1,16 @@
-﻿using Spa_Personas.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web.Http;
+using System.Text;
+using System.Threading.Tasks;
+using Spa_Personas.Models;
 
 namespace Spa_Personas.Clases
 {
-
     public class clsServicio_Sede
-	{
+    {
+
+
         private DBSpaPersonasEntities DBSpa = new DBSpaPersonasEntities();
         public Servicio_Sede Serv_sede { get; set; }
 
@@ -63,4 +65,4 @@ namespace Spa_Personas.Clases
             }
         }
     }
-} 
+}

@@ -21,19 +21,28 @@ namespace Spa_Personas.Controllers
         }
 
         //[Route("Insertar")]
-        //public string Insertar([FromBody] Detalle_factura Det_Fat)
+        //public string Insertar([FromBody] Producto prod)
         //{
-        //    clsDetalle_Factura Det_Fact = new clsDetalle_Factura();
-        //    Det_Fact. = prod;
+        //    clsProducto Producto = new clsProducto();
+        //    Producto.producto = prod;
         //    return Producto.Insertar();
+        //}
+
+        //[HttpPut]
+        //[Route("Actualizar")]
+        //public string Actualizar([FromBody] Producto prod)
+        //{
+        //    clsProducto Producto = new clsProducto();
+        //    Producto.producto = prod;
+        //    return Producto.Actualizar();
         //}
 
         //[HttpDelete]
         //[Route("Eliminar")]
-        //public string Eliminar([FromBody] Detalle_factura Det_Fat)
+        //public string Eliminar([FromBody] Producto prod)
         //{
-        //    clsDetalle_Factura Det_Fact = new clsDetalle_Factura();
-        //    Det_Fact.producto = prod;
+        //    clsProducto Producto = new clsProducto();
+        //    Producto.producto = prod;
         //    return Producto.Eliminar();
         //}
     }
