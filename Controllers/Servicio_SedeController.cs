@@ -4,36 +4,38 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Spa_Personas.Clases;
+using Spa_Personas.Models;
 
 namespace Spa_Personas.Controllers
 {
+    [RoutePrefix("api/Servicio_Sede")]
     public class Servicio_SedeController : ApiController
     {
-        // GET api/<controller>
-        public IEnumerable<string> Get()
+        [HttpGet]
+        [Route("ConsultarXId")]
+        public Servicio_Sede ConsultarXId(int idServSede)
         {
-            return new string[] { "value1", "value2" };
+            clsServicio_Sede serv_sede = new clsServicio_Sede();
+            return (serv_sede.ConsultarPorId(idServSede));
         }
 
-        // GET api/<controller>/5
-        public string Get(int id)
+        [HttpPost]
+        [Route("Insertar")]
+        public string Insertar([FromBody] Servicio_Sede serv_sed)
         {
-            return "value";
+            clsServicio_Sede serv_sede = new clsServicio_Sede();
+            serv_sede.Serv_sede = serv_sed;
+            return serv_sede.Insertar();
         }
 
-        // POST api/<controller>
-        public void Post([FromBody]string value)
+        [HttpDelete]
+        [Route("Eliminar")]
+        public string Eliminar([FromBody] Servicio_Sede serv_sed)
         {
-        }
-
-        // PUT api/<controller>/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/<controller>/5
-        public void Delete(int id)
-        {
+            clsServicio_Sede serv_sede = new clsServicio_Sede();
+            serv_sede.Serv_sede = serv_sed;
+            return serv_sede.Eliminar();
         }
     }
 }
