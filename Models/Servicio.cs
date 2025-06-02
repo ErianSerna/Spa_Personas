@@ -30,15 +30,20 @@ namespace Spa_Personas.Models
         public int IdSede { get; set; }
         public int IdTipoServicio { get; set; }
         [JsonIgnore]
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Detalle_factura> Detalle_factura { get; set; }
+
         [JsonIgnore]
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Reserva> Reservas { get; set; }
         public virtual Sede Sede { get; set; }
         [JsonIgnore]
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Servicio_Sede> Servicio_Sede { get; set; }
+        [JsonIgnore]
         public virtual TipoServicio TipoServicio { get; set; }
     }
 }

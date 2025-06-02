@@ -9,6 +9,7 @@
 
 namespace Spa_Personas.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -17,8 +18,10 @@ namespace Spa_Personas.Models
         public int Id { get; set; }
         public Nullable<int> Id_Proveedor { get; set; }
         public Nullable<int> Id_Producto { get; set; }
-    
+
+        [JsonIgnore]
         public virtual Producto Producto { get; set; }
+        [JsonIgnore]
         public virtual Proveedor Proveedor { get; set; }
     }
 }

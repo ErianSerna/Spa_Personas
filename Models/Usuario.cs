@@ -28,12 +28,14 @@ namespace Spa_Personas.Models
         public string Telefono { get; set; }
         public string Correo_electronico { get; set; }
         public int IdTipoUsuario { get; set; }
+
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Factura> Facturas { get; set; }
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Reserva> Reservas { get; set; }
+        [JsonIgnore]
         public virtual TipoUsuario TipoUsuario { get; set; }
     }
 }

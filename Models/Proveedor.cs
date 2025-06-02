@@ -29,9 +29,11 @@ namespace Spa_Personas.Models
         public string Nit { get; set; }
         public string Direccion { get; set; }
         [JsonIgnore]
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Producto> Productoes { get; set; }
         [JsonIgnore]
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Proveedor_Producto> Proveedor_Producto { get; set; }
     }

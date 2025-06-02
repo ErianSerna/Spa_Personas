@@ -28,9 +28,12 @@ namespace Spa_Personas.Models
         public int IdServicio { get; set; }
         public int IdUsuario { get; set; }
         [JsonIgnore]
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Factura> Facturas { get; set; }
+        [JsonIgnore]
         public virtual Servicio Servicio { get; set; }
+        [JsonIgnore]
         public virtual Usuario Usuario { get; set; }
     }
 }

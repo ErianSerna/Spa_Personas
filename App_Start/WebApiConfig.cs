@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Spa_Personas.Clases;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
@@ -10,6 +11,8 @@ namespace Spa_Personas
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
+            config.MessageHandlers.Add(new TokenValidationHandler());
+            config.EnableCors();
 
             // Web API routes
             config.MapHttpAttributeRoutes();

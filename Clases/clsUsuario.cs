@@ -28,10 +28,10 @@ namespace Spa_Personas.Clases
 
         public string Actualizar()
         {
-            Usuario usu = ConsultarPorCedula(usuario.Cedula);
+            Usuario usu = ConsultarXId(usuario.Id);
             if (usu == null)
             {
-                return "La cedula no es válida";
+                return "El id no es válido";
             }
             DBSpa.Usuarios.AddOrUpdate(usuario);
             DBSpa.SaveChanges();
@@ -44,11 +44,11 @@ namespace Spa_Personas.Clases
             return usu;
         }
 
-        //public Usuario ConsultarPorId(int id)
-        //{
-        //    Usuario usu = DBSpa.Usuarios.FirstOrDefault(u => u.Id == id);
-        //    return usu;
-        //}
+        public Usuario ConsultarXId(int id)
+        {
+            Usuario usu = DBSpa.Usuarios.FirstOrDefault(u => u.Id == id);
+            return usu;
+        }
 
         public string Eliminar()
         {

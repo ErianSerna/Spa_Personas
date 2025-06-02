@@ -23,6 +23,7 @@ namespace Spa_Personas.Models
     
         public int Id { get; set; }
         public string Nombre { get; set; }
+
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Usuario> Usuarios { get; set; }
