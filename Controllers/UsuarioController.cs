@@ -5,12 +5,15 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using Spa_Personas.Clases;
 using Spa_Personas.Models;
 
 namespace Spa_Personas.Controllers
 {
     [RoutePrefix("api/Usuario")]
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [Authorize]
     public class UsuarioController : ApiController
     {
 

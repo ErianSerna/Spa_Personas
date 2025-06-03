@@ -7,10 +7,12 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace Spa_Personas.Controllers
 {
     [RoutePrefix("api/Factura")]
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class FacturaController : ApiController
     {
         [HttpGet]
