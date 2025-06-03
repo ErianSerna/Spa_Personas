@@ -38,6 +38,13 @@ namespace Spa_Personas.Clases
             return "Se actualizó el usuario correctamente";
         }
 
+	public List<Usuario> Listar() 
+	{
+	   return DBSpa.Usuarios
+                .OrderBy(u => u.Nombre) //Ordena los empleados por su NOMBRE
+                .ToList(); //Consulta todos los empleados
+	}
+		
         public Usuario ConsultarPorCedula(string Cedula)
         {
             Usuario usu = DBSpa.Usuarios.FirstOrDefault(u => u.Cedula == Cedula);
