@@ -21,7 +21,7 @@ namespace Spa_Personas.Clases
             }
             catch (Exception ex)
             {
-                return "Error al insertar Proveedor: " + ex.Message;
+                return "Error al insertar proveedor: " + ex.Message;
             }
         }
 

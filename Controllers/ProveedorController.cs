@@ -13,6 +13,7 @@ namespace Spa_Personas.Controllers
     public class ProveedorController : ApiController
     {
 
+        // Consultar todos los proveedores
         [HttpGet]
         [Route("ConsultarTodos")]
         public List<Proveedor> ConsultarTodos()
