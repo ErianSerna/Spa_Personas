@@ -37,6 +37,13 @@ namespace Spa_Personas.Clases
             return "Se actualizó el proveedor exitosamente";
         }
 
+        public List<Proveedor> ConsultarTodos()
+        {
+            return DBSpa.Proveedors
+                .OrderBy(e => e.Nit) //Ordena los empleados por su NIT
+                .ToList(); //Consulta todos los empleados
+        }
+
         public Proveedor ConsultarPorNit(string Nit)
         {
             Proveedor prove = DBSpa.Proveedors.FirstOrDefault(u => u.Nit == Nit);

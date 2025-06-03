@@ -12,6 +12,17 @@ namespace Spa_Personas.Controllers
     [RoutePrefix("api/Proveedor")]
     public class ProveedorController : ApiController
     {
+
+        [HttpGet]
+        [Route("ConsultarTodos")]
+        public List<Proveedor> ConsultarTodos()
+        {
+            //Se crea un objeto de la clase clsEmpleado
+            clsProveedor Proveedor = new clsProveedor();
+            //Se llama al método ConsultarTodos de la clase clsEmpleado
+            return Proveedor.ConsultarTodos();
+        }
+
         [HttpGet]
         [Route("ConsultarxNit")]
         public Proveedor ConsultarxNit(string Nit)
@@ -19,6 +30,7 @@ namespace Spa_Personas.Controllers
             clsProveedor prove = new clsProveedor();
             return (prove.ConsultarPorNit(Nit));
         }
+
 
         [Route("Insertar")]
         public string Insertar([FromBody] Proveedor prove)

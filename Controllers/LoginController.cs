@@ -12,6 +12,7 @@ namespace Spa_Personas.Controllers
 {
     [RoutePrefix("api/Login")]
     [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [AllowAnonymous]
     public class LoginController : ApiController
     {
         [HttpPost]
