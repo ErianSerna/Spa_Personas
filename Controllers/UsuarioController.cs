@@ -11,9 +11,18 @@ using Spa_Personas.Models;
 namespace Spa_Personas.Controllers
 {
     [RoutePrefix("api/Usuario")]
+    [EnableCors(origins: "", headers: "", methods: "*")]
     public class UsuarioController : ApiController
     {
 
+        [HttpGet]
+        [Route("Listar")
+        public List<Usuario> Listar()
+        {
+            clsUsuario usu = new clsUsuario();
+            return usu.Listar();
+        }
+                        
         [HttpGet]
         [Route("ConsultarxCedula")]
         public Usuario ConsultarxCedula(string Cedula)
