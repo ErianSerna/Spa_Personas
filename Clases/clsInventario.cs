@@ -12,9 +12,9 @@ namespace Spa_Personas.Clases
         private DBSpaPersonasEntities DBSpa = new DBSpaPersonasEntities();
         public Inventario inventario { get; set; }
 
-        public List<Factura> ConsultarTodos()
+        public List<Inventario> ConsultarTodos()
         {
-            return DBSpa.Facturas
+            return DBSpa.Inventarios
                 .OrderBy(e => e.Id)
                 .ToList();
         }
