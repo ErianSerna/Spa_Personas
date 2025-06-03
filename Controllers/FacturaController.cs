@@ -16,6 +16,14 @@ namespace Spa_Personas.Controllers
     public class FacturaController : ApiController
     {
         [HttpGet]
+        [Route("ConsultarTodos")]
+        public List<Factura> ConsultarTodos()
+        {
+            clsFactura fact = new clsFactura();
+            return fact.ConsultarTodos();
+        }
+
+        [HttpGet]
         [Route("ConsultarXId")]
         public Factura ConsultarXId(int idFactura)
         {

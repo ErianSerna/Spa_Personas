@@ -25,6 +25,14 @@ namespace Spa_Personas.Clases
             }
         }
 
+        public List<Factura> ConsultarTodos()
+        {
+            return DBSpa.Facturas
+                .OrderBy(e => e.Id) //Ordena Las facturas por id
+                .ToList();
+        }
+
+
         public string Actualizar()
         {
             Factura fact = ConsultarPorId(factura.Id);

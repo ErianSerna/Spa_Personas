@@ -43,6 +43,13 @@ namespace Spa_Personas.Clases
             return deta_fact;
         }
 
+        public List<Detalle_factura> ConsultarTodos()
+        {
+            return DBSpa.Detalle_factura
+                .OrderBy(e => e.Id)  
+                .ToList();   
+        }
+
         //public string Eliminar()
         //{
         //    try

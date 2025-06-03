@@ -15,6 +15,14 @@ namespace Spa_Personas.Controllers
     public class ProductoController : ApiController
     {
         [HttpGet]
+        [Route("ConsultarTodos")]
+        public List<Producto> ConsultarTodos()
+        {
+            clsProducto prod = new clsProducto();
+            return prod.ConsultarTodos();
+        }
+
+        [HttpGet]
         [Route("ConsultarXId")]
         public Producto ConsultarXId(int idProd)
         {

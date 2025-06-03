@@ -15,6 +15,14 @@ namespace Spa_Personas.Controllers
     public class Proveedor_ProductoController : ApiController
     {
         [HttpGet]
+        [Route("ConsultarTodos")]
+        public List<Proveedor_Producto> ConsultarTodos()
+        {
+            clsProveedor_Producto prov_prod = new clsProveedor_Producto();
+            return prov_prod.ConsultarTodos();
+        }
+
+        [HttpGet]
         [Route("ConsultarXProveedor")]
         public Proveedor_Producto ConsultarXProveedor(int id)
         {

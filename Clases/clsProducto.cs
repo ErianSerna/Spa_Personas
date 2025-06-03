@@ -11,6 +11,14 @@ namespace Spa_Personas.Clases
 	{
         private DBSpaPersonasEntities DBSpa = new DBSpaPersonasEntities();
         public Producto producto { get; set; }
+
+        public List<Producto> ConsultarTodos()
+        {
+            return DBSpa.Productoes
+                .OrderBy(e => e.Nombre)
+                .ToList();
+        }
+
         public string Insertar()
         {
             try

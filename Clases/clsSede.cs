@@ -26,6 +26,13 @@ namespace Spa_Personas.Clases
             }
         }
 
+        public List<Sede> ConsultarTodos()
+        {
+            return DBSpa.Sedes
+                .OrderBy(e => e.Nombre)
+                .ToList();
+        }
+
         public string Actualizar()
         {
             Sede sed = ConsultarXIdSede(sede.Id);

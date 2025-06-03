@@ -12,7 +12,7 @@ namespace Spa_Personas.Controllers
 {
 
     [RoutePrefix("api/Proveedor")]
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [EnableCors(origins: "http://localhost:3886", headers: "*", methods: "*")]
     [Authorize]
     public class ProveedorController : ApiController
     {

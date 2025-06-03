@@ -15,6 +15,14 @@ namespace Spa_Personas.Controllers
     public class ReservaController : ApiController
     {
         [HttpGet]
+        [Route("ConsultarTodos")]
+        public List<Reserva> ConsultarTodos()
+        {
+            clsReserva reserv = new clsReserva();
+            return reserv.ConsultarTodos();
+        }
+
+        [HttpGet]
         [Route("ConsultarXId")]
         public Reserva ConsultarxId(int Id)
         {
@@ -22,6 +30,7 @@ namespace Spa_Personas.Controllers
             return (reserv.ConsultarPorId(Id));
 
         }
+
 
         [Route("Insertar")]
         public string Insertar([FromBody] Reserva reserv)

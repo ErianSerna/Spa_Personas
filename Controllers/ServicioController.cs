@@ -15,6 +15,14 @@ namespace Spa_Personas.Controllers
     public class ServicioController : ApiController
     {
         [HttpGet]
+        [Route("ConsultarTodos")]
+        public List<Servicio> ConsultarTodos()
+        {
+            clsServicio serv = new clsServicio();
+            return serv.ConsultarTodos();
+        }
+
+        [HttpGet]
         [Route("ConsultarxId")]
         public Servicio ConsultarxId(int Id)
         {

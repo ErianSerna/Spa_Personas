@@ -15,6 +15,14 @@ namespace Spa_Personas.Controllers
     public class InventarioController : ApiController
     {
         [HttpGet]
+        [Route("ConsultarTodos")]
+        public List<Inventario> ConsultarTodos()
+        {
+            clsInventario inv = new clsInventario();
+            return inv.ConsultarTodos();
+        }
+
+        [HttpGet]
         [Route("ConsultarXId")]
         public Inventario ConsultarXId(int idInventario)
         {

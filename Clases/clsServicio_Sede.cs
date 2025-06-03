@@ -14,6 +14,13 @@ namespace Spa_Personas.Clases
         private DBSpaPersonasEntities DBSpa = new DBSpaPersonasEntities();
         public Servicio_Sede Serv_sede { get; set; }
 
+        public List<Servicio_Sede> ConsultarTodos()
+        {
+            return DBSpa.Servicio_Sede
+                .OrderBy(e => e.Id)
+                .ToList();
+        }
+
         public string Insertar()
         {
             try

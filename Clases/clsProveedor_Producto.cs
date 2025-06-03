@@ -17,6 +17,14 @@ namespace Spa_Personas.Clases
             return prov_producto;
         }
 
+        public List<Proveedor_Producto> ConsultarTodos()
+        {
+            return DBSpa.Proveedor_Producto
+                .OrderBy(e => e.Id)
+                .ToList();
+        }
+
+
         public Proveedor_Producto ConsultarXId(int id)
         {
             Proveedor_Producto prov_producto = DBSpa.Proveedor_Producto.FirstOrDefault(u => u.Id == id);

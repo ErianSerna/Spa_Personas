@@ -25,6 +25,13 @@ namespace Spa_Personas.Clases
             }
         }
 
+        public List<Reserva> ConsultarTodos()
+        {
+            return DBSpa.Reservas
+                .OrderBy(e => e.Id)
+                .ToList();
+        }
+
         public string Actualizar()
         {
             Reserva reserv = ConsultarPorId(reserva.Id);

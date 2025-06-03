@@ -17,6 +17,14 @@ namespace Spa_Personas.Controllers
     public class SedeController : ApiController
     {
         [HttpGet]
+        [Route("ConsultarTodos")]
+        public List<Sede> ConsultarTodos()
+        {
+            clsSede sed = new clsSede();
+            return sed.ConsultarTodos();
+        }
+
+        [HttpGet]
         [Route("ConsultarxId")]
         public Sede ConsultarXIdSed(int idSedes)
         {

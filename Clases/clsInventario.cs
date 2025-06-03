@@ -11,6 +11,15 @@ namespace Spa_Personas.Clases
 	{
         private DBSpaPersonasEntities DBSpa = new DBSpaPersonasEntities();
         public Inventario inventario { get; set; }
+
+        public List<Factura> ConsultarTodos()
+        {
+            return DBSpa.Facturas
+                .OrderBy(e => e.Id)
+                .ToList();
+        }
+
+
         public string Insertar()
         {
             try

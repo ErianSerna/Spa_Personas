@@ -14,6 +14,17 @@ namespace Spa_Personas.Controllers
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class Detalle_FacturaController : ApiController
     {
+
+        // Consultar todos los proveedores
+        [HttpGet]
+        [Route("ConsultarTodos")]
+        public List<Detalle_factura> ConsultarTodos()
+        {
+            //Se crea un objeto de la clase clsEmpleado
+            clsDetalle_Factura det_fact = new clsDetalle_Factura();          
+            return det_fact.ConsultarTodos();
+        }
+
         [HttpGet]
         [Route("ConsultarXId")]
         public Detalle_factura ConsultarXId(int idDetFact)

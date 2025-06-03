@@ -5,18 +5,20 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using Spa_Personas.Clases;
 using Spa_Personas.Models;
 
 namespace Spa_Personas.Controllers
 {
     [RoutePrefix("api/Usuario")]
-    [EnableCors(origins: "", headers: "", methods: "*")]
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class UsuarioController : ApiController
     {
 
+
         [HttpGet]
-        [Route("Listar")
+        [Route("Listar")]
         public List<Usuario> Listar()
         {
             clsUsuario usu = new clsUsuario();
