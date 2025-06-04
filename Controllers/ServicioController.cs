@@ -11,7 +11,7 @@ using System.Web.Http.Cors;
 namespace Spa_Personas.Controllers
 {
     [RoutePrefix("api/Servicio")]
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [EnableCors(origins: "http://localhost:3886", headers: "*", methods: "*")]
     [Authorize]
 
     public class ServicioController : ApiController

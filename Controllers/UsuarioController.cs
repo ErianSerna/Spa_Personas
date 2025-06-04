@@ -12,7 +12,7 @@ using Spa_Personas.Models;
 namespace Spa_Personas.Controllers
 {
     [RoutePrefix("api/Usuario")]
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [EnableCors(origins: "http://localhost:3886", headers: "*", methods: "*")]
     [Authorize]
     public class UsuarioController : ApiController
     {

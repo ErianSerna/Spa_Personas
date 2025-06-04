@@ -11,7 +11,7 @@ using static Spa_Personas.Models.libLogin;
 namespace Spa_Personas.Controllers
 {
     [RoutePrefix("api/Login")]
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [EnableCors(origins: "http://localhost:3886", headers: "*", methods: "*")]
     [AllowAnonymous]
     public class LoginController : ApiController
     {
