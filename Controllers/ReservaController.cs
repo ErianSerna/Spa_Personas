@@ -12,6 +12,8 @@ namespace Spa_Personas.Controllers
 {
     [RoutePrefix("api/Reserva")]
     [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [Authorize]
+
     public class ReservaController : ApiController
     {
         [HttpGet]

@@ -12,6 +12,8 @@ namespace Spa_Personas.Controllers
 {
     [RoutePrefix("api/Detalle_Factura")]
     [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [Authorize]
+
     public class Detalle_FacturaController : ApiController
     {
 

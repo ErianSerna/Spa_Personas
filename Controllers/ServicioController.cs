@@ -12,6 +12,8 @@ namespace Spa_Personas.Controllers
 {
     [RoutePrefix("api/Servicio")]
     [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [Authorize]
+
     public class ServicioController : ApiController
     {
         [HttpGet]

@@ -12,6 +12,8 @@ namespace Spa_Personas.Controllers
 {
     [RoutePrefix("api/Inventario")]
     [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [Authorize]
+
     public class InventarioController : ApiController
     {
         [HttpGet]

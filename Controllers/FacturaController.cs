@@ -13,6 +13,8 @@ namespace Spa_Personas.Controllers
 {
     [RoutePrefix("api/Factura")]
     [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [Authorize]
+
     public class FacturaController : ApiController
     {
         [HttpGet]
