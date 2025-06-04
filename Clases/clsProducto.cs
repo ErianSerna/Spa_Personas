@@ -51,6 +51,12 @@ namespace Spa_Personas.Clases
             return prod;
         }
 
+        public Producto ConsultarPorNombre(string nombre)
+        {
+            Producto prod = DBSpa.Productoes.FirstOrDefault(u => u.Nombre == nombre);
+            return prod;
+        }
+
         public string Eliminar()
         {
             try

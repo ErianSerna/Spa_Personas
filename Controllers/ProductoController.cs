@@ -32,6 +32,14 @@ namespace Spa_Personas.Controllers
             return (prod.ConsultarPorId(idProd));
         }
 
+        [HttpGet]
+        [Route("ConsultarXNombre")]
+        public Producto ConsultarXNombre(string NombreProd)
+        {
+            clsProducto prod = new clsProducto();
+            return (prod.ConsultarPorNombre(NombreProd));
+        }
+
         [Route("Insertar")]
         public string Insertar([FromBody] Producto prod)
         {
