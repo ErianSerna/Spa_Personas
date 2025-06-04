@@ -13,10 +13,9 @@ namespace Spa_Personas.Controllers
 {
     [RoutePrefix("api/Usuario")]
     [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [Authorize]
     public class UsuarioController : ApiController
     {
-
-
         [HttpGet]
         [Route("Listar")]
         public List<Usuario> Listar()
