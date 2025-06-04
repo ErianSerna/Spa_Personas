@@ -16,8 +16,6 @@ namespace Spa_Personas.Controllers
     [Authorize]
     public class UsuarioController : ApiController
     {
-
-
         [HttpGet]
         [Route("Listar")]
         public List<Usuario> Listar()

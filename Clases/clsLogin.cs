@@ -73,7 +73,8 @@ namespace Spa_Personas.Clases
                            Usuario = U.userName,
                            Autenticado = true,
                            Token = token,
-                           Mensaje = ""
+                           Mensaje = "",
+                           PaginaInicio = "/Paginas/Index.html",
                        };
             }
             else
