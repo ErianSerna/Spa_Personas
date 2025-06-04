@@ -32,6 +32,14 @@ namespace Spa_Personas.Controllers
             return usu.ConsultarPorCedula(Cedula);
         }
 
+        [HttpGet]
+        [Route("ConsultarXId")]
+        public Usuario ConsultarXId(int Id)
+        {
+            clsUsuario usu = new clsUsuario();
+            return usu.ConsultarXId(Id);
+        }
+
         [HttpPost]
         [Route("Insertar")]
         public string Insertar([FromBody] Usuario usu)
